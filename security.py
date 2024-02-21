@@ -60,7 +60,6 @@ def create_status_bar_chart(acc_sector):
     )
     bargp_chart.update_traces(textfont_size=20, textfont_color='white')
     bargp_chart.update_layout(
-        legend=dict(font=dict(size=20)),
         xaxis=dict(tickfont=dict(size=20, color='black')),
         yaxis=dict(tickfont=dict(size=20, color='black')),
         xaxis_title="",
