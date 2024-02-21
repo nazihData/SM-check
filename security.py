@@ -84,7 +84,6 @@ def create_duration_box_plot(sec_nona):
         height=800
     )
     pos_box.update_layout(
-        legend=dict(font=dict(size=20)),
         xaxis=dict(tickfont=dict(size=20, color='black')),
         yaxis=dict(tickfont=dict(size=20, color='black')),
         yaxis_title="<b>Days Count</b>",
